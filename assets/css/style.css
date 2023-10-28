@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+Section Start */ header {
+    width: 100%;
+    height: 100px;
+    background: #131E3A;
+}
+
+.page {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    padding: 0px 0px;
+    background: #131E3A;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page ul {
+    margin-inline: auto;
+}
+
+.page ul li {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 15px;
+    margin: 0px 20px;
+}
+
+.page ul li a.active {
+    color: #ff4f7b;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* header section End */
+
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 900px;
+    background: url(../img/banner.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+/* Banner Section End */
+.heading{
+    width: 70%;
+    height: auto;
+    color:black;
+    margin: auto;
+    
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 200;
+    font-family:'Franklin Gothic Book';
+    padding-top: 18%;
+    
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.form{
+    width: 100%;
+    height: auto;
+    background: #5F307C;
+    margin-top: 13%;
+}
+/* Switch button Start */
+.switchbutton ul li{
+    list-style: none;
+    display: inline-block;
+}
+.switchbutton button{
+    background: #4D3371;
+    height:auto;
+    width:100%;
+    padding:15px 40px;
+    margin: 0px 10px;
+}
+/* Switch button Start */
+
+.userinput ul li{
+    list-style: none;
+    display: inline-block;
+}
+.userinput ul li input{
+height: 100%;
+width:120px;
+padding: 8px 1px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.userinput ul li select{
+height: 100%;
+width:120px;
+padding: 8px 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+main{
+    width: 85%;
+    float: left;
+    height: auto;
+    background: #5F307C;
+}
+aside{
+    width: 15%;
+    float: right;
+    height: auto;
+    background: #5F307C;
+}
+aside button{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    background:#ff4f7b;
+    border-radius: 50%;
+    border: 0px;
+}
+.checkbox ul li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    background: none;
+    margin: 10px 5px;
+}
+.checkbox ul li select{
+    background: none;
+    color: #fff;
+    border: none;
+    margin: 10px 10px;
+}
+.checkbox ul li select option{
+    color: #000;
+}
+
+@media screen and (max-width:429px) {
+
+
+    .page,
+    header {
+        display: inline-block;
+        height: auto;
+    }
+    .banner{height: 400px;}
+    .heading{width: 100% ; margin: 0px;}
+    .form{margin-top: 20%;}
+    .switchbutton ul li{display:block;}
+    .switchbutton button{margin: 0px;}
+    aside button{height: 40px;width: 40px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    /* ========================= */
+    
+}
+@media screen and (max-width:576px) and (min-width:429px) {
+    .page,
+    header {
+        height: auto;
+    }
+    .banner{height: 500px;}
+    .heading{width: 100% ; margin: 0px;}
+    .form{margin-top: 21%;}
+    .switchbutton ul li{display:block;}
+    .switchbutton button{margin: 0px;}
+    aside button{height: 50px;width: 50px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 15px;
+}
+    /* ========================= */
+    
+}
+@media screen and (max-width:768px) and (min-width:576px) {
+
+    .page,
+    header {
+        height: 80px;
+    }
+    .banner{height: 600px;}
+    .form{margin-top: 19%;}
+    aside button{height: 60px;width: 60px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+
+    /* ========================= */
+
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .banner{height: 700px;}
+    .form{margin-top: 17%;} 
+    aside button{height: 70px;width: 70px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    /* ========================= */
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+   
+    .banner{height: 800px;}
+    .form{margin-top: 35%;}
+    aside button{height: 80px;width: 80px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /* ========================= */
+}
+
+@media screen and (max-width:1400px) and (min-width:1200px){
+   
+    .banner{height: 900px;}
+    .form{margin-top: 13%;}
+    aside button{height: 90px;width: 90px;margin: 10px;background:#ff4f7b;border-radius: 50%;border: 0px;}
+    /* ========================= */
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    /* ========================= */
+}
